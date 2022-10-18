@@ -1,4 +1,4 @@
-package loops;
+package loops.src;
 import java.util.Scanner;
 
 /*
@@ -6,7 +6,7 @@ Faça um programa que peça N números inteiros,
 calcule e mostre a quantidade de números pares
 e a quantidade de números impares.
 */
-public class ParEImpar {
+public class ParImpar {
   public static void main(String[] args) {
     int quantityNumber;
     int count = 0;
@@ -32,3 +32,4 @@ public class ParEImpar {
     System.out.println("Quantidade de números impares: " + quantityOdd);
   }
 }
+
