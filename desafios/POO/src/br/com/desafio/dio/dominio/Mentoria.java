@@ -1,33 +1,20 @@
 package br.com.desafio.dio.dominio;
 import java.time.LocalDate;
 
-public class Mentoria {
-    // Boa prática, nos atributos utilizarmos o modificador de acesso private
+public class Mentoria extends Conteudo {
   
-  private String titulo;
-  private String descricao;
+  // por default já cria esse constructor
+  public Mentoria() {}
+  
+  // Boa prática, nos atributos utilizarmos o modificador de acesso private
   // LocalDate e LocalTime lidam com datas!
   private LocalDate data;
-
-  public String getTitulo () {
-    return titulo;
-  }
-// por default já cria esse constructor
-  public Mentoria() {
-  }
-
-  public void setTitulo(String titulo) {
-    this.titulo = titulo;
-  }
-
-  public String getDescricao () {
-    return descricao;
-  }
-
-  public void setDescricao(String descricao) {
-    this.descricao = descricao;
-  }
   
+  @Override
+  public double calcularXP() {
+    return XP_PADRAO + 20d;
+  }
+
   public LocalDate getData() {
     return data;
   }
@@ -40,10 +27,11 @@ public class Mentoria {
   @Override
   public java.lang.String toString() {
     return "Mentoria{" +
-            "titulo='" + titulo + '\'' +
-            ", descricao='" + descricao + '\'' +
+            "titulo='" + getTitulo() + '\'' +
+            ", descricao='" + getDescricao() + '\'' +
             ", data=" + data +
             '}';
   }
+
 }
 
