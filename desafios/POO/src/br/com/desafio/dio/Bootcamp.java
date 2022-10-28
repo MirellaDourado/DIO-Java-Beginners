@@ -59,6 +59,8 @@ public class Bootcamp {
     result = prime * result + ((conteudos == null) ? 0 : conteudos.hashCode());
     return result;
   }
+
+  
   @Override
   public boolean equals(Object obj) {
     if (this == obj)
