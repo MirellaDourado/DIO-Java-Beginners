@@ -5,7 +5,7 @@ import java.util.Set;
 
 import br.com.desafio.dio.dominio.Conteudo;
 
-public class Dev {
+public class Devs {
   private String nome;
 
   // Usamos HashSet pq: só teremos itens únicos.
@@ -61,7 +61,7 @@ public class Dev {
       return false;
     if (getClass() != obj.getClass())
       return false;
-    Dev other = (Dev) obj;
+    Devs other = (Devs) obj;
     if (nome == null) {
       if (other.nome != null)
         return false;
