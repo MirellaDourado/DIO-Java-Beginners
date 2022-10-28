@@ -12,6 +12,9 @@ public class Mentoria {
   public String getTitulo () {
     return titulo;
   }
+// por default já cria esse constructor
+  public Mentoria() {
+  }
 
   public void setTitulo(String titulo) {
     this.titulo = titulo;
