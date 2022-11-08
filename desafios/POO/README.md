@@ -1,18 +1,17 @@
-## Getting Started
+# Desafio DIO - Bootcamp
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+APRENDENDO NA PRÁTICA O PARADIGMA DE ORIENTAÇÃO A OBJETOS
 
-## Folder Structure
+## Estrutura do Diretório:
 
-The workspace contains two folders by default, where:
+Este projeto possui três pastas:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `src`: diretório com os arquivos do desenvolvimento
+- `.idea`: possui o arquivo gitignore e arquivos xml e iml
+- `.vscode`: possui o arquivo gitignore e o settings.json
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Projeto:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Este projeto tem como objetivo principal colocar em prática umas das principais ferramentas da Orientaçã a Objeto: ABSTRAÇÃO, ENCAPSULAMENTO, HERANÇA E POLIMORFISMO, através da abstração do domínio Bootcamp, modelando seus atributos e métodos.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+O projeto possui 4 classes: Bootcamp, Cursos, Mentorias e Devs.
